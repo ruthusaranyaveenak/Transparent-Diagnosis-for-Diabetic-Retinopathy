@@ -3,9 +3,9 @@
 
 **Overview**
 
-This project focuses on developing an AI-powered system for early and transparent detection of Diabetic Retinopathy (DR) using retinal fundus images.
+> This project focuses on developing an AI-powered system for early and transparent detection of Diabetic Retinopathy (DR) using retinal fundus images.
 
-The model is designed to provide both accurate predictions and explainable insights using deep learning and Explainable AI (XAI) techniques such as Grad-CAM.
+> The model is designed to provide both accurate predictions and explainable insights using deep learning and Explainable AI (XAI) techniques such as Grad-CAM.
 
 
 **Objectives**
@@ -51,20 +51,27 @@ The model is designed to provide both accurate predictions and explainable insig
 >Explainability: Grad-CAM heatmaps show regions influencing the model’s prediction.
 
 
-**System Features**
-
->Real-time DR detection from uploaded images.
-
->Interactive web interface for easy use.
-
->Transparent visual outputs for clinician trust.
-
->Downloadable PDF diagnostic report.
-
 
 **System Architecture**
 
 > User Uploads Image → Preprocessing & Augmentation → Model Prediction (EfficientNet) → Grad-CAM Visualization → Display Result + Report Generation
+
+
+
+**System Features**
+
+> Experience the working prototype of our web-based diagnostic system through the Interactive Frontend Portal.
+> The web application provides a seamless interface where users can:
+
+>1.Upload retinal fundus images for diabetic retinopathy detection.
+
+>2.View predictions in real time using the trained EfficientNet model.
+
+>3.Analyze visual explanations generated through Grad-CAM heatmaps for better interpretability.
+
+>4.Download personalized diagnostic reports summarizing the disease stage, cause, and possible treatment suggestions.
+
+>Access the Live Web Application: http://127.0.0.1:5000/
 
 
 
