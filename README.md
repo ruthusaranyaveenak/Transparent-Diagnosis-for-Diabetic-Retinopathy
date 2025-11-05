@@ -67,7 +67,7 @@ The model is designed to provide both accurate predictions and explainable insig
 User Uploads Image → Preprocessing & Augmentation → Model Prediction (EfficientNet) → Grad-CAM Visualization → Display Result + Report Generation
 
 
-Output
+**Output**
 
 >Predicted Stage of DR
 
@@ -76,10 +76,31 @@ Output
 >Downloadable Diagnostic Report (Disease, Cause, Treatment)
 
 
-Future Enhancements
+**Future Enhancements**
 
 >Extend the model to detect other eye disorders (Glaucoma, Macular Degeneration).
 
 >Integrate live retinal image capture from a webcam or fundus camera.
 
 >Cloud deployment for real-time tele-ophthalmology support.
+
+
+**Acknowledgment**
+
+This project, “Transparent Diagnosis for Diabetic Retinopathy,” was carried out under the guidance of **Deepti N N, Assistant Professor** whose continuous support, valuable insights, and encouragement were instrumental in helping us successfully complete this work.
+We sincerely thank our guide for their dedication and motivation throughout the project development process.
+
+
+**Team Role Division**
+
+>Saranya M S – Data, Model Development & Documentation:
+Collected and preprocessed the dataset, performed image augmentation, and trained the EfficientNet model for diabetic retinopathy detection, and prepared the final project report and documentation.
+
+>Veena K – Explainable AI & Architecture:
+Integrated Grad-CAM for visual interpretability and designed the system architecture, workflow, and analysis diagrams.
+
+>Ruthu N – Web Development & Deployment:
+Developed the Flask-based web application, connected frontend (HTML, CSS, JS) with backend, and implemented the diagnostic report download feature.
+
+>Spandana R – Testing:
+Conducted model evaluation using accuracy, precision, recall, and F1-score metrics, performed software testing.
