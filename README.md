@@ -64,7 +64,18 @@ The model is designed to provide both accurate predictions and explainable insig
 
 **System Architecture**
 
-User Uploads Image → Preprocessing & Augmentation → Model Prediction (EfficientNet) → Grad-CAM Visualization → Display Result + Report Generation
+> User Uploads Image → Preprocessing & Augmentation → Model Prediction (EfficientNet) → Grad-CAM Visualization → Display Result + Report Generation
+
+
+
+**Testing & Results**
+
+> Achieved 97.4% classification accuracy with the EfficientNet model.
+
+> Evaluated performance using metrics like precision, recall, F1-score, and confusion matrix.
+>
+>  Validated predictions through Grad-CAM visualizations to ensure model reliability.
+
 
 
 **Output**
@@ -87,8 +98,9 @@ User Uploads Image → Preprocessing & Augmentation → Model Prediction (Effici
 
 **Acknowledgment**
 
-This project, “Transparent Diagnosis for Diabetic Retinopathy,” was carried out under the guidance of **Deepti N N, Assistant Professor** whose continuous support, valuable insights, and encouragement were instrumental in helping us successfully complete this work.
-We sincerely thank our guide for their dedication and motivation throughout the project development process.
+>We would like to express our heartfelt gratitude to **Deepti N N, Assistant Professor**, our project guide at **Rajiv Gandhi Institute of Technology**, for their constant support, valuable insights, and encouragement throughout the development of this project.
+>Their guidance played a crucial role in helping us complete the project successfully and achieve meaningful results.
+
 
 
 **Team Role Division**
