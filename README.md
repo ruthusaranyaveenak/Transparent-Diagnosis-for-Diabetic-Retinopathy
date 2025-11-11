@@ -71,7 +71,6 @@
 
 >4.Download personalized diagnostic reports summarizing the disease stage, cause, and possible treatment suggestions.
 
->Access the Live Web Application: http://127.0.0.1:5000/
 
 
 
